@@ -40,55 +40,50 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "CEIT-SSC",
-    fullName: "CEIT-SSC",
-    email: "ceit.ssc94@gmail.com",
+    title: 'CE Student Scientific Association',
+    fullName: 'CEIT-SSC',
+    email: 'ceit.ssc94@gmail.com',
   },
   hero: {
-    name: "CEIT-SSC",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: 'Student Scientific Association ',
+    p: [
+      'organizing extracurricular educational activities',
+      'in order to improve the quality of education and student life in the department',
+    ],
   },
   contact: {
-    p: "Get in touch",
-    h2: "Contact.",
+    p: 'Get in touch',
+    h2: 'Contact',
     form: {
       name: {
-        span: "Your Name",
+        span: 'Your Name',
         placeholder: "What's your name?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: 'Your Email', placeholder: "What's your email?" },
       message: {
-        span: "Your Message",
-        placeholder: "What do you want to say?",
+        span: 'Your Message',
+        placeholder: 'What do you want to say?',
       },
     },
   },
   sections: {
     about: {
-      p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      p: '',
+      h2: 'About Us',
+      content: `At the Student Scientific Club of Amirkabir University, our goal is to encourage students to engage in extracurricular events, talks, workshops, and tours in order to help spark interest in various topics in the field as well as create environments for people to build strong connections with those of the same interests. Our network connects undergraduates and graduate students to opportunities in academia and industry. We support and encourage prospective computer science majors and hope to provide direction and assistance to those interested in the field.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      h2: 'Timeline',
+      p: 'Here you can view a timeline of the events we held in the past year:',
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: 'What others say',
+      h2: 'Testimonials.',
     },
     works: {
-      p: "My work",
-      h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      p: '',
+      h2: 'Our executive board',
+      content: ``,
     },
   },
 };
