@@ -1,8 +1,8 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+import { motion } from 'framer-motion';
 
-import { styles } from "../../constants/styles";
-import { textVariant } from "../../utils/motion";
+import { styles } from '../../constants/styles';
+import { textVariant } from '../../utils/motion';
 
 interface IHeader {
   useMotion: boolean;
@@ -13,8 +13,8 @@ interface IHeader {
 export const Header: React.FC<IHeader> = ({ useMotion, p, h2 }) => {
   const Content = () => (
     <>
-      <p className={styles.sectionSubText}>{p}</p>
       <h2 className={styles.sectionHeadText}>{h2}</h2>
+      <p className={styles.sectionSubText}>{p}</p>
     </>
   );
 
