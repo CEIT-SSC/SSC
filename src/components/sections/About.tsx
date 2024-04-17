@@ -14,7 +14,7 @@ interface IServiceCard {
   icon: string;
 }
 
-const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
+const ServiceCard: React.FC<IServiceCard> = ({ index, title }) => (
   <Tilt glareEnable tiltEnable tiltMaxAngleX={30} tiltMaxAngleY={30} glareColor="#aaa6c3">
     <div className="xs:w-[260px] w-full">
       <motion.div
