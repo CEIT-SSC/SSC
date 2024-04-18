@@ -24,7 +24,7 @@ const ExperienceCard: React.FC<TExperience> = experience => {
           <img
             src={experience.icon}
             alt={experience.companyName}
-            className="h-[60%] w-[60%] object-contain"
+            className="h-[70%] w-[70%] object-contain"
           />
         </div>
       }

@@ -152,7 +152,7 @@ const experiences: TExperience[] = [
     title: 'Algo Cup',
     companyName: '',
     icon: algocup,
-    iconBg: '#383E56',
+    iconBg: '#000000',
     date: '18 April 2024',
     points: [
       'An individual coding competition where programmers solve engaging algorithmic programming problems and demonstrate their skills in a competitive yet supportive environment.',
@@ -242,7 +242,7 @@ const experiences: TExperience[] = [
     title: '3rd Gamecraft',
     companyName: '',
     icon: gameCraft,
-    iconBg: '#E6DEDD',
+    iconBg: '#3F3E60',
     date: '4 October 2023 - 6 October 2023',
     points: [
       `An immersive event featuring talks and workshops, culminating in a game development competition where participants create a game competing for a grand prize.`,
@@ -252,7 +252,7 @@ const experiences: TExperience[] = [
     title: 'Algorithm Arena',
     companyName: '',
     icon: algorithmArene,
-    iconBg: '#383E56',
+    iconBg: '#E6DEDD',
     date: '25 July 2023 - 27 August 2023',
     points: [
       `A set of classes, practices, and competitions in order to spark interest in new comers as well as improve skills in those invested in learning.`,
