@@ -21,7 +21,7 @@ const emailjsConfig = {
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
   const [form, setForm] = useState(INITIAL_STATE);
-  const [socialText, setSocialText] = useState(config.contact.social);
+  const [socialText] = useState(config.contact.social);
   // const [loading, setLoading] = useState(false);
 
   // const handleChange = (
