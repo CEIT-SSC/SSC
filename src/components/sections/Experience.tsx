@@ -36,9 +36,10 @@ const ExperienceCard: React.FC<TExperience> = experience => {
         </p>
       </div>
 
-      <ul className="ml-5 mt-5 list-disc space-y-2">
+      <ul className="mt-5 list-disc space-y-2">
         {experience.points.map((point, index) => (
           <li
+            style={{ listStyle: 'none' }}
             key={`experience-point-${index}`}
             className="text-white-100 pl-1 text-[14px] tracking-wider"
           >
