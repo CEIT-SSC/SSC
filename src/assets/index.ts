@@ -21,19 +21,19 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
-import aaiss from './Project/aaiss-primary.jpg';
-import acm22 from './Project/acm22.jpg';
-import acm23 from './Project/acm23.jpg';
+import aaiss from './Project/aaiss.png';
+import acm22 from './Project/acm.png';
+import acm23 from './Project/acm.png';
 import algocup from './Project/algocup.jpg';
 import algorithmArene from './Project/algorithmArena.jpg';
-import cloud from './Project/cloud.jpg';
+import cloud from './Project/xaas.jpeg';
 import gameCraft from './Project/gamecraft.jpg';
-import gradTalk from './Project/grad-talk.jpg';
-import gradTalkGame from './Project/gradtalkGame.jpg';
-import gradTalkBlockChain from './Project/gradtalkblockchain.jpg';
+import gradTalk from './Project/grad-talk.png';
+import gradTalkGame from './Project/grad-talk.png';
+import gradTalkBlockChain from './Project/grad-talk.png';
 import linuxTalk from './Project/linuxTalk.jpg';
 import simorgh from './Project/simorgh.jpg';
-import SG from './Project/HS.jpg';
+import SG from './Project/HS.png';
 
 import Hossein from './team/Hossein.jpg';
 import Leila from './team/Leila.jpg';
@@ -59,6 +59,10 @@ import tesla from './company/tesla.png';
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+
+import telegram from './social/telegram.svg';
+import insta from './social/instagram.svg';
+import linkedin from './social/linkedin.svg';
 
 export {
   aaiss,
@@ -117,4 +121,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  telegram,
+  linkedin,
+  insta,
 };
