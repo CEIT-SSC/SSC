@@ -42,7 +42,7 @@ import {
   gradTalk,
   gradTalkBlockChain,
   gradTalkGame,
-  linuxTalk,
+  // linuxTalk,
   simorgh,
   SG,
   Hossein,
@@ -69,7 +69,15 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: 'work',
-    title: 'timeline',
+    title: 'Timeline',
+  },
+  {
+    id: 'partnership',
+    title: 'Partnership',
+  },
+  {
+    id: 'board',
+    title: 'Our Board',
   },
   {
     id: 'contact',
@@ -79,21 +87,19 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: 'Host Informative and educational talks in various fields in computer engineering.',
+    title: 'Talks & Seminars',
     icon: web,
   },
   {
-    title: 'Organize tours to reputable companies in the industry.',
+    title: 'On-site visits',
     icon: mobile,
   },
   {
-    title:
-      'Hold competitions, particularly algorithmic, that also help advance community building as well as healthy competitiveness.',
+    title: 'Competitions',
     icon: backend,
   },
   {
-    title:
-      'Host workshops that improve team building skills on top of advancing the skills of the particular field of the workshop.',
+    title: 'Workshops',
     icon: creator,
   },
 ];
@@ -102,34 +108,42 @@ const technologies: TTechnology[] = [
   {
     name: 'Cafe Bazaar',
     icon: bazaar,
+    bg: '#FFFFFF',
   },
   {
     name: 'Hamkaran System',
     icon: hamkaran,
+    bg: '#DD1125',
   },
   {
     name: 'Snapp!',
     icon: snapp,
+    bg: '#74D98C',
   },
   {
     name: 'Digi kala',
     icon: digikala,
+    bg: '#F01832',
   },
   {
     name: 'Medrick',
     icon: medrick,
+    bg: '#FFFFFF',
   },
   {
     name: 'Drop out Games',
     icon: dropoutGames,
+    bg: '#0070BB',
   },
   {
     name: 'Sabaidea',
     icon: sabaidea,
+    bg: '#FFFFFF',
   },
   {
     name: 'Xass',
     icon: xaas,
+    bg: '#FFFFFF',
   },
 ];
 
@@ -138,9 +152,11 @@ const experiences: TExperience[] = [
     title: 'Algo Cup',
     companyName: '',
     icon: algocup,
-    iconBg: '#383E56',
+    iconBg: '#000000',
     date: '18 April 2024',
-    points: [],
+    points: [
+      'An individual coding competition where programmers solve engaging algorithmic programming problems and demonstrate their skills in a competitive yet supportive environment.',
+    ],
   },
   {
     title: 'Grad talks - Intro to blockchain',
@@ -148,7 +164,9 @@ const experiences: TExperience[] = [
     icon: gradTalkBlockChain,
     iconBg: '#E6DEDD',
     date: '12 March 2024',
-    points: [],
+    points: [
+      'A talk led by one of our prestigious alumni, touching on the significance of blockchain in the current world of programming and the possible future it entails for us.',
+    ],
   },
   {
     title: 'Simorgh supercomputer visit',
@@ -156,7 +174,9 @@ const experiences: TExperience[] = [
     icon: simorgh,
     iconBg: '#383E56',
     date: '12 March 2024',
-    points: [],
+    points: [
+      `Embarking on an educational tour of a Simorgh's server room, gaining firsthand insights into the workings of their supercomputer and its impact on advanced computing.`,
+    ],
   },
   {
     title: 'Grad talks - Game production: From Fantasy to reality',
@@ -164,7 +184,9 @@ const experiences: TExperience[] = [
     icon: gradTalkGame,
     iconBg: '#E6DEDD',
     date: '10 March 2024',
-    points: [],
+    points: [
+      `A talk led by a seasoned game developer from a renowned gaming company providing insight on the challenges of game development.`,
+    ],
   },
   {
     title: 'System groups company visit',
@@ -172,7 +194,9 @@ const experiences: TExperience[] = [
     icon: SG,
     iconBg: '#383E56',
     date: '9 March 2024',
-    points: [],
+    points: [
+      `A guided tour of Systems Groups, a prominent software company, offering a behind-the-scenes look at their innovative development processes and corporate culture`,
+    ],
   },
   {
     title: 'Grad talks - Security and Privacy in TAP',
@@ -180,7 +204,9 @@ const experiences: TExperience[] = [
     icon: gradTalk,
     iconBg: '#E6DEDD',
     date: '26 December 2023',
-    points: [],
+    points: [
+      `A talk led by a PhD Student at Chalmers University, talking about Security and Privacy in Trigger-Action Platforms.`,
+    ],
   },
   {
     title: '14th AAISS (Amirkabir Artificial Intelligence Student Summit)',
@@ -188,7 +214,9 @@ const experiences: TExperience[] = [
     icon: aaiss,
     iconBg: '#383E56',
     date: '5 December 2023 - 15 December 2023',
-    points: [],
+    points: [
+      `An event focused on several workshops and seminars focused on Artificial Intelligence led by various professors and professionals in the field.`,
+    ],
   },
   {
     title: 'Cloud Computing Workshop and Xaas visit',
@@ -196,7 +224,9 @@ const experiences: TExperience[] = [
     icon: cloud,
     iconBg: '#E6DEDD',
     date: '14 November 2023',
-    points: [],
+    points: [
+      `A cloud computing workshop featuring a tour at a leading tech company, providing practical insights into cloud technologies and infrastructure.`,
+    ],
   },
   {
     title: '23nd ACPC',
@@ -204,31 +234,29 @@ const experiences: TExperience[] = [
     icon: acm23,
     iconBg: '#383E56',
     date: '2 November 2023',
-    points: [],
+    points: [
+      `The 23rd Amirkabir algorithmic programming contest for college students. Teams of three, representing their university, work to solve programming problems, fostering collaboration, creativity, and the ability to perform under pressure.`,
+    ],
   },
   {
     title: '3rd Gamecraft',
     companyName: '',
     icon: gameCraft,
-    iconBg: '#E6DEDD',
+    iconBg: '#3F3E60',
     date: '4 October 2023 - 6 October 2023',
-    points: [],
+    points: [
+      `An immersive event featuring talks and workshops, culminating in a game development competition where participants create a game competing for a grand prize.`,
+    ],
   },
   {
     title: 'Algorithm Arena',
     companyName: '',
     icon: algorithmArene,
-    iconBg: '#383E56',
-    date: '25 July 2023 - 27 August 2023',
-    points: [],
-  },
-  {
-    title: 'Introduction to Linux',
-    companyName: '',
-    icon: linuxTalk,
     iconBg: '#E6DEDD',
-    date: '31 May 2023',
-    points: [],
+    date: '25 July 2023 - 27 August 2023',
+    points: [
+      `A set of classes, practices, and competitions in order to spark interest in new comers as well as improve skills in those invested in learning.`,
+    ],
   },
   {
     title: '22nd ACPC',
@@ -236,7 +264,9 @@ const experiences: TExperience[] = [
     icon: acm22,
     iconBg: '#383E56',
     date: '6 April 2023',
-    points: [],
+    points: [
+      `The 22nd Amirkabir algorithmic programming contest for college students. Teams of three, representing their university, work to solve programming problems, fostering collaboration, creativity, and the ability to perform under pressure.`,
+    ],
   },
 ];
 
