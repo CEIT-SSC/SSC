@@ -1,3 +1,5 @@
+import { linkedin, telegram, insta } from '../assets';
+
 type TSection = {
   p: string;
   h2: string;
@@ -15,6 +17,23 @@ type TConfig = {
     p: string[];
   };
   contact: {
+    social: {
+      telegram: {
+        span: any;
+        placeholder: string;
+        link: string;
+      };
+      linkedin: {
+        span: any;
+        placeholder: string;
+        link: string;
+      };
+      instagram: {
+        span: any;
+        placeholder: string;
+        link: string;
+      };
+    };
     form: {
       name: {
         span: string;
@@ -25,6 +44,10 @@ type TConfig = {
         placeholder: string;
       };
       message: {
+        span: string;
+        placeholder: string;
+      };
+      message2: {
         span: string;
         placeholder: string;
       };
@@ -54,15 +77,36 @@ export const config: TConfig = {
   contact: {
     p: 'Get in touch',
     h2: 'Contact',
+    social: {
+      telegram: {
+        span: telegram,
+        placeholder: 'AUT CE SSC',
+        link: 'https://t.me/ceit_ssc',
+      },
+      linkedin: {
+        span: linkedin,
+        placeholder: `Student's Scientific Chapter of AUT-CEIT`,
+        link: 'https://www.linkedin.com/school/students-scientific-chapter/',
+      },
+      instagram: {
+        span: insta,
+        placeholder: 'ceit_ssc',
+        link: 'https://www.instagram.com/ceit_ssc',
+      },
+    },
     form: {
       name: {
-        span: 'Your Name',
+        span: 'Faculty email',
         placeholder: "What's your name?",
       },
-      email: { span: 'Your Email', placeholder: "What's your email?" },
+      email: { span: 'SSC email', placeholder: 'ceit.ssc94@gmail.com' },
       message: {
-        span: 'Your Message',
-        placeholder: 'What do you want to say?',
+        span: `Director's email`,
+        placeholder: 'arminhamedazimi2@gmail.com',
+      },
+      message2: {
+        span: `Treasurer's email`,
+        placeholder: 'sm.bagher.hb@gmail.com',
       },
     },
   },
