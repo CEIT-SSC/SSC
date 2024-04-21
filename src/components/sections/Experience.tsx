@@ -16,15 +16,16 @@ const ExperienceCard: React.FC<TExperience> = experience => {
         background: '#1d1836',
         color: '#fff',
       }}
+      iconClassName={'zoom-10'}
       contentArrowStyle={{ borderRight: '7px solid  #232631' }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className="flex h-full w-full items-center justify-center">
+        <div className="flex h-full w-full items-center justify-center overflow-hidden rounded-full">
           <img
             src={experience.icon}
             alt={experience.companyName}
-            className="h-[70%] w-[70%] object-contain"
+            className="h-[90%] w-[90%] object-contain"
           />
         </div>
       }

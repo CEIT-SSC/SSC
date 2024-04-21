@@ -31,6 +31,7 @@ export type TProject = {
     name: string;
     color: string;
   }[];
+  email: string,
   image: string;
   sourceCodeLink: string;
 } & Required<Pick<TCommonProps, 'name'>>;
