@@ -63,12 +63,12 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: 'CE Student Scientific Association',
-    fullName: 'CEIT-SSC',
+    title: `Students's Scientific Chapter of AUT-CEIT`,
+    fullName: `Students's Scientific Chapter of AUT-CEIT`,
     email: 'ceit.ssc94@gmail.com',
   },
   hero: {
-    name: 'Student Scientific Association ',
+    name: `Student's Scientific Chapter of AUT-CEIT `,
     p: [
       'organizing extracurricular educational activities',
       'in order to improve the quality of education and student life in the department',
@@ -99,7 +99,7 @@ export const config: TConfig = {
         span: 'Faculty email',
         placeholder: "What's your name?",
       },
-      email: { span: 'SSC email', placeholder: 'ceit.ssc94@gmail.com' },
+      email: { span: 'SSC email', placeholder: 'ceit-ssc@contact.ir' },
       message: {
         span: `Director's email`,
         placeholder: 'arminhamedazimi2@gmail.com',
