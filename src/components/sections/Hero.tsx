@@ -15,9 +15,9 @@ const Hero = () => {
           <div className="violet-gradient h-40 w-1 sm:h-80" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            <span className="text-[#915EFF]">{config.hero.name}</span>
-          </h1>
+          <p className={`${styles.heroHeadText} text-white`}>
+            <span className="text-[#915EFF] text-[50px]">{config.hero.name}</span>
+          </p>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
             {config.hero.p[1]}
