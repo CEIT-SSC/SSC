@@ -99,7 +99,7 @@ export const config: TConfig = {
         span: 'Faculty email',
         placeholder: "What's your name?",
       },
-      email: { span: 'SSC email', placeholder: 'ceit-ssc@contact.ir' },
+      email: { span: 'SSC email', placeholder: 'contact@ceit-ssc.ir' },
       message: {
         span: `Director's email`,
         placeholder: 'arminhamedazimi2@gmail.com',
