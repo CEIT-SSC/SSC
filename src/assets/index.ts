@@ -40,7 +40,7 @@ import Leila from './team/Leila.jpg';
 import Bagher from './team/Bagher.jpg';
 import Alireza from './team/Alireza.jpg';
 import Armin from './team/Armin.jpg';
-import Raeen from './team/Raeen.jpg';
+import Raeen from './team/Raein.jpg';
 import Bita from './team/Bita.jpg';
 
 import bazaar from './sponsors/bazaar.png';
